@@ -1,0 +1,29 @@
+name: sound_of_safety
+description: تطبيق آيفون — صوت الأمان، فحص الروابط بواجهة بسيطة لدعم المكفوفين.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.3.3
+  http: ^1.2.2
+  clipboard_watcher: ^0.3.0
+  receive_sharing_intent: ^1.8.1
+  flutter_local_notifications: ^18.0.1
+  flutter_tts: ^4.2.3
+  app_links: ^6.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
